@@ -46,6 +46,6 @@ const results = [];
     results.push({ announcement, size, date, time, pdf });
   }
   const csv = parse(results);
-  writeFileSync("announcements.csv", csv);
-  // console.log(results);
+  
+  console.log(results);
 })();
